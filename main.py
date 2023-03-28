@@ -23,7 +23,3 @@ def gettime():
 @app.route("/")
 def main():
     return gettime()
-
-
-if __name__ == "__main__":
-    app.run()
