@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def gettime():
     now = datetime.now()
-    dt = str(datetime.now())
+    dt = str(datetime.now()) + "-00.00"
     d = str(date.today())
     t = (str(now.hour) + ':' + str(now.minute) + ':' + str(now.second))
 
